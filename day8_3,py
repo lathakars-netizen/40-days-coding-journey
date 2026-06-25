@@ -1,0 +1,4 @@
+file = open("students.txt", "a")
+name = input("Enter student name: ")
+file.write(name + "\n")
+file.close()
